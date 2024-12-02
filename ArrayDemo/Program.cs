@@ -31,6 +31,27 @@ namespace ArrayDemo
             Console.WriteLine("Effect of Copy()");
             foreach (var n in another)
                 Console.WriteLine(n);
+
+            //Sort
+
+            //Array.Sort(another);
+            //Console.WriteLine("Effect of Sort()");
+            //foreach (var n in another) 
+            //Console.WriteLine(n);
+
+            Array.Sort(number);
+            Console.WriteLine("Effect of Sort()");
+            foreach (var n in number)
+                Console.WriteLine(n);
+
+            //Reverse
+
+            Array.Reverse(number);
+            Console.WriteLine("Effect of Sort()");
+            foreach (var n in number)
+                Console.WriteLine(n);
+
         }
+
     }
 }
